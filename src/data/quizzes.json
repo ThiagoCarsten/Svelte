@@ -1,0 +1,55 @@
+[
+    {
+      "id": "q1",
+      "title": "Química: Soluções e Misturas",
+      "description": "Perguntas baseadas no artigo 'Misturas e soluções básicas'.",
+      "timeLimitMinutes": 10,
+      "questions": [
+        {
+          "id": "q1p1",
+          "text": "Qual é a diferença entre mistura homogênea e heterogênea?",
+          "options": [
+            { "id": "a", "text": "Homogênea tem aparência uniforme", "correct": true },
+            { "id": "b", "text": "Heterogênea é sempre líquida", "correct": false },
+            { "id": "c", "text": "Homogênea tem duas fases visíveis", "correct": false }
+          ]
+        },
+        {
+          "id": "q1p2",
+          "text": "Qual processo separa soluto de solvente por ebulição?",
+          "options": [
+            { "id": "a", "text": "Filtração", "correct": false },
+            { "id": "b", "text": "Destilação", "correct": true },
+            { "id": "c", "text": "Centrifugação", "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "title": "História: Revoluções",
+      "description": "Quiz curto sobre revoluções modernas.",
+      "timeLimitMinutes": 5,
+      "questions": [
+        {
+          "id": "q2p1",
+          "text": "Em que século aconteceu a Revolução Francesa?",
+          "options": [
+            { "id": "a", "text": "XVII", "correct": false },
+            { "id": "b", "text": "XVIII", "correct": true },
+            { "id": "c", "text": "XIX", "correct": false }
+          ]
+        },
+        {
+          "id": "q2p2",
+          "text": "Qual foi uma das principais causas econômicas?",
+          "options": [
+            { "id": "a", "text": "Crise de abastecimento", "correct": false },
+            { "id": "b", "text": "Desigualdade fiscal e impostos pesados", "correct": true },
+            { "id": "c", "text": "Descobertas científicas", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+  

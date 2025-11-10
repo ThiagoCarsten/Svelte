@@ -1,0 +1,101 @@
+:root{
+    --bg:#0f172a;
+    --card:#0b1220;
+    --text:#e6eef8;
+    --accent:#7dd3fc;
+    --muted:#93c5fd;
+  }
+  
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Inter, system-ui, sans-serif;
+    background: linear-gradient(180deg,#071029, #0d1b2b);
+    color:var(--text);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  
+  .app {
+    width:100%;
+    max-width:920px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border-radius:12px;
+    padding:18px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.6);
+  }
+  
+  .header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:12px;
+  }
+  
+  .logo { font-weight:700; font-size:1.15rem; color:var(--accent) }
+  
+  .content { display:flex; gap:18px; align-items:flex-start; }
+  
+  /* left list */
+  .list {
+    width:280px;
+    background:var(--card);
+    padding:12px;
+    border-radius:10px;
+    height:520px;
+    overflow:auto;
+  }
+  
+  /* right area */
+  .panel {
+    flex:1;
+    padding:12px;
+    background:var(--card);
+    border-radius:10px;
+    min-height:520px;
+  }
+  
+  .quiz-card { padding:10px; border-radius:8px; margin-bottom:8px; cursor:pointer; }
+  .quiz-card:hover { outline:1px solid rgba(125,211,252,0.1) }
+  
+  .question { margin:14px 0; font-size:1.05rem; }
+  .answers { display:flex; flex-direction:column; gap:8px; }
+  .btn {
+    padding:10px 12px;
+    border-radius:8px;
+    cursor:pointer;
+    border: none;
+    background:transparent;
+    color:var(--text);
+    text-align:left;
+    width:100%;
+  }
+  .btn:hover { background: rgba(255,255,255,0.03) }
+  .btn.selected { background: rgba(125,211,252,0.12); border:1px solid rgba(125,211,252,0.2) }
+  
+  .small { font-size:0.85rem; color:var(--muted) }
+  .center { display:flex; gap:8px; align-items:center; justify-content:center; }
+  
+  .footer-controls { display:flex; gap:8px; margin-top:12px; }
+  .primary {
+    background: linear-gradient(90deg, var(--accent), #60a5fa);
+    padding:10px 14px;
+    border-radius:10px;
+    color:#022;
+    font-weight:700;
+    cursor:pointer;
+    border:none;
+  }
+  .ghost {
+    background: transparent;
+    border:1px solid rgba(255,255,255,0.06);
+    padding:10px 12px;
+    border-radius:8px;
+    color:var(--text);
+    cursor:pointer;
+  }
+  
